@@ -6,6 +6,8 @@ Vector SVG recreation of the original(?) function key overlay for the IBM Model 
 ![IBM M122 My New Overlay](my_new.jpg)
 
 ## VIA config
+### QMK Support
+I've included QMK config folder for IBM m122, see https://github.com/qmk/qmk_firmware
 ### VIA Support
 I've included `ibm_terminal_via_config.json`. To use it:
 1. Open [VIA Web](https://usevia.app/) (or the desktop app).

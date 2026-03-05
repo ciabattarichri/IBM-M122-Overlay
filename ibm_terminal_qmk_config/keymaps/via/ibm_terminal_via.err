@@ -1,0 +1,10 @@
+jq: error: syntax error, unexpected then, expecting '|' or ',' or ')' at <top-level>, line 14, column 18:
+                     then [({} + (if (($dx|abs) > 0.0001) then {x:$dx} else {} end) + key_obj($cur)), key_label($cur)]
+                     ^^^^
+jq: error: syntax error, unexpected ')', expecting then or '|' or ',' at <top-level>, line 14, column 53:
+                     then [({} + (if (($dx|abs) > 0.0001) then {x:$dx} else {} end) + key_obj($cur)), key_label($cur)]
+                                                        ^
+jq: error: syntax error, unexpected ']', expecting '|' or ',' or ';' at <top-level>, line 14, column 114:
+                     then [({} + (if (($dx|abs) > 0.0001) then {x:$dx} else {} end) + key_obj($cur)), key_label($cur)]
+                                                                                                                     ^
+jq: 3 compile errors
